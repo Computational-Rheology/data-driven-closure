@@ -1,0 +1,7 @@
+
+**.svg
+**.png
+DATA/test_data
+DATA/train_data
+**/__pycache__/
+**/PDF
