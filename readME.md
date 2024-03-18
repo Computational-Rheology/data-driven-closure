@@ -1,7 +1,5 @@
 This repository finds a closure for the 4th-order tensor used in Jeffery's equation.
 
-It assumes that 4th-order tensor is orthotropic. 
-
 Admissible ranges are derived based on Mathematica&#174; 14.
 
 

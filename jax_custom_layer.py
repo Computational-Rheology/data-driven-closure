@@ -71,9 +71,9 @@ class Eigen_network(eqx.Module):
         
         d1 = (y[0] - (-1))*((d1_max - d1_min)/(1 - (-1))) + d1_min
         
-        jax.lax.select(lambdas[0]==1.0, 
-                       d1_min,
-                       d1)
+        # jax.lax.select(lambdas[0]==1.0, 
+        #                d1_min,
+        #                d1)
         
         d2 = (1.0/35)*(1 - 5*lambdas[0])
         d3 = (1.0/35)*(-4 + 5*lambdas[0])
